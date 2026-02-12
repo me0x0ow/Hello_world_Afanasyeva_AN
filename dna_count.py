@@ -12,4 +12,5 @@ print("Подсчет нуклеотидов: ")
 print(f"A: {count_A}\nT: {count_T}\nG: {count_G}\nC: {count_C}")
 print(f"Общая длина: {length} нуклеотидов")
 print("Процентное содержание каждого нуклеотида:")
-print(f"A: {percent_A}\nT: {percent_T}\nG: {percent_G}\nC: {percent_C}")
+
+print(f"A: {percent_A}%\nT: {percent_T}%\nG: {percent_G}%\nC: {percent_C}%")
