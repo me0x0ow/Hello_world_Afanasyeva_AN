@@ -1,5 +1,5 @@
-fio = input("Введите ФИО: ")
-date = input("Ведите дату: ")
-experiment = input("Введите название эксперимента: ")
-with open("journal.txt", "w", encoding="utf-8")as journal:
- journal.write(f"Электронный лабораторный журнал\n ФИО исследователя :\t {fio}\n Дата :\t {date}\n Эксперимент  :\t {experiment}\n Вывод:\n В ходе эксперимента выявлены нарушения долговременной памяти у экспериментальной группы животных")
+substrate = input("Введите название питательной среды:")
+concentration = input("Введите концентрацию агара (%):")
+temperature = input("Введите температуру стерилизации (°C):")
+with open ("recipe.txt", "w", encoding="utf-8") as recipe:
+    recipe.write(f"Введите название питательной среды:\t {substrate}\n Введите концентрацию агара (%):\t {concentration}\n Введите температуру стерилизации (°C):\t {temperature}\n Файл 'recipe.txt' успешно сформирован!")
